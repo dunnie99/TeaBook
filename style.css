@@ -10,10 +10,35 @@
     --color-success: hsl(120, 86%, 49%);
     --color-danger: hsl(0, 95%, 75%);
 
+
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
 }
 
 body {
     font-family: 'Ubuntu', sans-serif;
     color: var(--color-dark);
     background: var(--color-light);
+    overflow-x: hidden;
+}
+
+
+.container {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    width: 2.8rem;
+    aspect-ratio: 1/1;
+    border-radius: 60%;
+    overflow: hidden;
+}
+
+img {
+    display: inline-block;
+    padding: var();
 }
