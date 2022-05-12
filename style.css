@@ -15,5 +15,5 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     color: var(--color-dark);
-    background
+    background: var(--color-light);
 }
