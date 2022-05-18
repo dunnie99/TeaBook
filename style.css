@@ -3,12 +3,13 @@
 :root {
     --color-dark: hsl(252, 30%, 17%); 
     --color-white: hsl(252, 30%, 100%);
-    --color-light: hsl(180 2% 61%);
+    --color-light: hsl(255 85% 85%);
     --color-black: hsl(252, 78%, 10%);
     --color-primary: hsl(252, 75%, 60%);
     --color-secondary: hsl(252, 100%, 90%);
     --color-success: hsl(120, 86%, 49%);
     --color-danger: hsl(0, 95%, 75%);
+    --color-gray: hsl(252, 15%, 65% );
 
 
     --border-radius: 2rem;
@@ -60,4 +61,12 @@ img {
 .btn-primary {
     background: var(--color-primary);
     color: white;
+}
+
+.text-bold {
+    font-weight: 500;
+}
+
+.text-sip {
+    color: var(--colo);
 }
